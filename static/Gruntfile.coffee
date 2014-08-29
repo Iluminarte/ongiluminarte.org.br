@@ -48,7 +48,7 @@ module.exports = (grunt) ->
 
     notify_hooks:
       options:
-        title: "Project Name"
+        title: "ONG Iluminarte"
 
     notify:
       shell:
@@ -80,7 +80,6 @@ module.exports = (grunt) ->
         tasks: [
             'jshint'
             'min'
-            'shell'
             'notify:shell'
         ]
 
@@ -90,7 +89,6 @@ module.exports = (grunt) ->
         ]
         tasks: [
             'sass'
-            'shell'
             'notify:shell'
         ]
 
@@ -99,7 +97,6 @@ module.exports = (grunt) ->
             '*.php'
         ]
         tasks: [
-            'shell'
             'notify:shell'
         ]
 
